@@ -4,9 +4,12 @@ Este projeto é uma aplicação desenvolvida para treinar design de código, seg
 
 ## Funcionalidades
 
-- **Rota `/calculator_1`**: Realiza operações matemáticas básicas (adição, subtração, multiplicação, divisão) entre dois números fornecidos via requisição `POST`.
-- **Rota `/calculator_2`**: Calcula a potência de um número base elevado a um expoente, recebidos via requisição `POST`.
-- **Rota `/calculator_3`**: Calcula a raiz quadrada de um número fornecido via requisição `POST`.
+- **Rota `/calculator_1`**: Realiza operações matemáticas em um número fornecido via requisição `POST`. O número é dividido por 3, e dois processos matemáticos são aplicados ao resultado. O resultado final é a soma desses processos com o número dividido.
+
+- **Rota `/calculator_2`**: Processa uma lista de números fornecida via requisição `POST`. Aplica um processo matemático a cada número e calcula o inverso do desvio padrão dos resultados.
+
+- **Rota `/calculator_3`**: Calcula a variância e a multiplicação de uma lista de números fornecida via requisição `POST`. Verifica se a variância é maior que a multiplicação e retorna o resultado da variância.
+
 - **Rota `/calculator_4`**: Calcula a média de uma lista de números fornecida via requisição `POST`.
 
 ## Estrutura do Projeto
